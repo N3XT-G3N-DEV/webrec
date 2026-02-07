@@ -1,1 +1,16 @@
-{"name": "webrec", "version": "1.0.0", "dependencies": {"next": "latest", "react": "latest", "react-dom": "latest", "framer-motion": "latest", "tailwindcss": "latest"}}
+{
+  "name": "webrec",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest"
+  }
+}
