@@ -1,1 +1,1 @@
-{"name": "webrec", "version": "1.0.0", "dependencies": {"next": "latest", "react": "latest", "react-dom": "latest", "framer-motion": "latest", "tailwindcss": "latest"}}
+{"name": "webrec", "version": "1.0.0", "dependencies": {"next": "latest", "react": "latest", "react-dom": "latest", "framer-motion": "latest", "tailwindcss": "latest"}, "devDependencies": {"autoprefixer": "^10.4.19"}}
