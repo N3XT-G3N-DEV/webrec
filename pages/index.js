@@ -24,9 +24,13 @@ const HomePage = () => {
 
       <main>
         <section id="home" className="hero">
+          <div className="hero__glow" aria-hidden="true" />
           <div className="hero__inner">
             <p className="eyebrow">ogencro.one</p>
-            <h1>International ENTERTAINMENT Records</h1>
+            <h1>
+              <span className="gradient-text">International ENTERTAINMENT</span>{' '}
+              Records
+            </h1>
             <p className="lede">
               A future-facing record label and creative house. Home to the artist collective and movement led by{' '}
               <strong>OG ENCRO</strong>.
@@ -41,6 +45,7 @@ const HomePage = () => {
         <section id="label" className="panel">
           <div className="panel__header">
             <p className="eyebrow">Label Vision</p>
+            <hr className="section-divider" />
             <h2>International reach. Underground DNA.</h2>
             <p>
               International ENTERTAINMENT Records is built to move culture quickly—crossing borders and platforms
@@ -58,6 +63,7 @@ const HomePage = () => {
         <section id="artist" className="panel panel--alt">
           <div className="panel__header">
             <p className="eyebrow">Artist</p>
+            <hr className="section-divider" />
             <h2>OG ENCRO</h2>
             <p>
               Storyteller, architect, and flagship voice of the label. OG ENCRO crafts stark lyricism over cinematic
@@ -94,6 +100,7 @@ const HomePage = () => {
         <section id="contact" className="panel">
           <div className="panel__header">
             <p className="eyebrow">Contact</p>
+            <hr className="section-divider" />
             <h2>Plug in with the label</h2>
             <p className="muted">
               Booking, sync, press, and creative partnerships. We answer fast.
