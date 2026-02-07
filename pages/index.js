@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Navigation from '../components/Navigation';
 
 const highlights = [
@@ -15,6 +16,10 @@ const releases = [
 const HomePage = () => {
   return (
     <div className="page">
+      <Head>
+        <title>International ENTERTAINMENT Records · OG ENCRO</title>
+        <meta name="description" content="A future-facing record label and creative house. Home to the artist collective and movement led by OG ENCRO." />
+      </Head>
       <Navigation />
 
       <main>
